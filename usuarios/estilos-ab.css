@@ -1,0 +1,126 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  /*background-color: rgb(40,87,128);*/
+  background: width;
+}
+
+
+.contenedor{
+  width: 98%;
+  padding: 15px;
+}
+
+.formulario2{
+  background: #fff;
+  margin-top: 20px;
+  padding: 3px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="password"]{
+  font-size: 15px;
+  padding: 10px;
+  border:  1px solid #aaa;
+}
+
+
+
+input[type="number"]{
+   width: 10%;
+}
+
+
+.input-contenedor2{
+  margin-bottom: 10px;
+  border: 1px solid #aaa;
+}
+
+
+label, p{
+  text-align: left;
+  color: rgb(209,144,0);
+  padding: 3px;
+}
+
+legend{
+  text-align: left;
+  color: rgb(0,66,106);
+  padding: 5px;
+  margin-top: 20px;
+  font-size: 20px;
+
+}
+
+
+.caja {
+   margin:1px auto 10px auto;
+   border:1px solid #d9d9d9;
+   height:45px;
+   overflow: hidden;
+   width: 30%;
+   position:relative;
+}
+select {
+   background: transparent;
+   border: none;
+   font-size: 15px;
+   height: 45px;
+   padding: 5px;
+   width: 30px;
+}
+select:focus{ outline: none;}
+
+.caja::after{
+	content:"\025be";
+	display:table-cell;
+	padding-top:1px;
+	text-align:center;
+	width:30px;
+	height:45px;
+	background-color:#d9d9d9;
+	position:absolute;
+	top:0;
+	right:0px;
+	pointer-events: none;
+}
+
+h2{
+  text-align: left;
+  color: rgb(0,66,106);
+}
+
+.button{
+  border: none;
+  width: 100%;
+  color: white;
+  font-size: 30px;
+  background: rgb(0,66,106);
+  padding: 15px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+
+.msg-error{
+  text-align: center;
+  color: red;
+  display: block;
+  margin-top: 10px;
+}
+
+
+.button:hover{
+  background: rgb(218,170,0);
+}
+
+@media (min-width:768px) {
+  .formulario{
+    margin: auto;
+    width: 500px;
+    margin-top: 150px;
+    border-radius: 2%;
+  }
+
+}
